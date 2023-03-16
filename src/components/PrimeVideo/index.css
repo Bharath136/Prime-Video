@@ -1,0 +1,33 @@
+.prime-video-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding: 20px 200px;
+  background-color: #000000;
+}
+@media (max-width: 767px) {
+  .prime-video-container {
+    padding: 20px;
+  }
+}
+
+.prime-video-banner {
+  width: 100%;
+}
+
+.prime-videos-container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 30px;
+  overflow: auto;
+}
+
+.prime-video-heading {
+  font-size: 32px;
+  font-family: 'Roboto';
+  color: #fff;
+}
+
+div {
+  color: #fff;
+}

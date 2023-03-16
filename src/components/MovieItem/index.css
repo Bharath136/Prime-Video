@@ -1,0 +1,32 @@
+.movie-item {
+}
+
+.close-button-container {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  margin: 0;
+  padding: 20px 20px 20px 0px;
+  /* border: 1px solid black; */
+}
+
+.trigger-button {
+  background-color: transparent;
+  outline: none;
+  border: 0;
+  cursor: pointer;
+  padding: 0;
+}
+
+.popup-content {
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.video-container {
+  margin-bottom: 60px;
+  /* border: 1px solid black; */
+}
